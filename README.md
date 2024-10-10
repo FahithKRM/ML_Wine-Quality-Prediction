@@ -42,7 +42,7 @@ Ensure you have Python installed. You can download it from [here](https://www.py
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/wine-quality-prediction.git
+git clone https://github.com/FahithKRM/ML_Wine-Quality-Prediction.git
 ```
 ```bash
 cd wine-quality-prediction
@@ -50,7 +50,7 @@ cd wine-quality-prediction
 
 ### Step 2: Create a Virtual Environment
 
-# On Windows : 
+#### On Windows : 
 ```bash
 python -m venv env
 ```
@@ -58,7 +58,7 @@ python -m venv env
 .\env\Scripts\activate
 ```
 
-# On macOS/Linux : 
+#### On macOS/Linux : 
 ```bash
 python3 -m venv env
 ```
@@ -82,7 +82,7 @@ On the web interface, you'll need to input the 11 physicochemical features (excl
 ```bash
 7.4,0.7,0,1.9,0.076,11,34,0.9978,3.51,0.56,9.4
 ```
-# These values correspond to the following features:
+### These values correspond to the following features:
 1. Fixed Acidity
 2. Volatile Acidity
 3. Citric Acid
@@ -94,10 +94,10 @@ On the web interface, you'll need to input the 11 physicochemical features (excl
 9. pH
 10. Sulphates
 11. Alcohol
-# Once you input the features, the model will predict if the wine is of Good Quality or Bad Quality.
+### Once you input the features, the model will predict if the wine is of Good Quality or Bad Quality.
 
 ### Step 6: View Prediction
-#The model will output either:
+# The model will output either:
   - Good Quality Wine if the wine's predicted quality is 7 or more.
   - Bad Quality Wine otherwise.
 

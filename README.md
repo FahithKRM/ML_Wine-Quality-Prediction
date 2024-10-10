@@ -1,5 +1,7 @@
 # Wine Quality Prediction Model
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 This project is a machine learning-based web application that predicts whether the wine is of good or bad quality based on 11 physicochemical features (without including 'quality'). The model is trained using a `RandomForestClassifier` and deployed using `Streamlit`.
 
 ## Features
@@ -124,4 +126,3 @@ On the web interface, you'll need to input the 11 physicochemical features (excl
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-

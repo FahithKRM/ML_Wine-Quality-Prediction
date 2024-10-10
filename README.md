@@ -94,23 +94,26 @@ On the web interface, you'll need to input the 11 physicochemical features (excl
 9. pH
 10. Sulphates
 11. Alcohol
-### Once you input the features, the model will predict if the wine is of Good Quality or Bad Quality.
+#### Once you input the features, the model will predict if the wine is of Good Quality or Bad Quality.
 
 ### Step 6: View Prediction
-# The model will output either:
+#### The model will output either:
   - Good Quality Wine if the wine's predicted quality is 7 or more.
   - Bad Quality Wine otherwise.
 
 ### Examples : 
+##### Input : 
 ```bash
 11.2,0.28,0.56,1.9,0.075,17.0,60.0,0.998,3.16,0.58,9.8
 ```
+##### Output :
 ![image](https://github.com/user-attachments/assets/8581df71-8ada-4b9f-a90c-15511e896fcd)
 
-
+##### Input : 
 ```bash
 7.5,0.52,0.16,1.9,0.085,12.0,35.0,0.9968,3.38,0.62,9.5
 ```
+##### Output :
 ![image](https://github.com/user-attachments/assets/634d8071-cc27-43d5-9e4f-f788cb9afbe0)
 
 
